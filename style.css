@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "futura";
+    background-image: url("https://hdqwalls.com/wallpapers/japan-landscape-vector-minimalist-4k-y6.jpg");
+    background-size: cover;
+    background-position: top center;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+}
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+    transition: 0.2s ease-in-out;
+}
+input{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: .5em;
+    background-color: rgba(255,255,255,0.5);
+}
+input:focus {
+    border-bottom: 2px solid #0c2337;
+    background-color: rgba(255,255,255,0.7);;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10%;
+    color: #fff;
+}
+.locationDate  #nameCity{
+    margin-bottom: .5em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.locationDate #date {
+    font-size: 1em;
+}
+.temperature #tempCity {
+    font-size: 4em;
+    margin: 2%;
+    font-weight: 900;
+}
+.temperature span {
+    font-weight: 200;
+}
+.temperature #weather {
+    font-style: italic;
+    font-weight: 400;
+}
+.temperature #high-low {
+    margin-top: 5%;
+}
