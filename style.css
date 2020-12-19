@@ -5,11 +5,7 @@
 }
 body {
     font-family: "futura";
-<<<<<<< HEAD
     background-image: url(./img/Japan.jpg);
-=======
-    background-image: url(./img/japan-landscape-vector-minimalist-4k-y6 .jpg);
->>>>>>> 012d45c7e7235b48bd4aefdd9d237f8efd061560
     background-size: cover;
     background-position: top center;
 }
